@@ -1,0 +1,71 @@
+{% load static %}
+{% block hero %}
+<div id="carousel-hero-id" class="carousel slide d-block w-100"  data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'images/hero_1.png' %}" class="d-block w-100" height="85%" alt="...">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption d-none d-md-block text-center d-flex justify-content-center">
+        <!-- Text și butonul dorite -->
+        <h1 class="mb-3">Travel around the world.</h1>
+        <a href="#">
+          <button class="btn-custom spaced-top-2">SEE LAST POSTS</button></br></br></br></br></br></br></br></br></br>
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/hero_2.png' %}" class="d-block w-100" height="85%"alt="...">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption d-none d-md-block text-center d-flex justify-content-center">
+        <!-- Text și butonul dorite -->
+        <h1 class="mb-3">Travel around the world.</h1>
+        <a href="#">
+          <button class="btn-custom spaced-top-2">SEE LAST POSTS</button></br></br></br></br></br></br></br></br></br>
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/hero_3.png' %}" class="d-block w-100" height="85%" alt="...">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption d-none d-md-block text-center d-flex justify-content-center">
+        <!-- Text și butonul dorite -->
+        <h1>Travel around the world.</h1>
+        <a href="#">
+          <button class="btn-custom spaced-top-2">SEE LAST POSTS</button></br></br></br></br></br></br></br></br></br>
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/hero_4.png' %}" class="d-block w-100" height="85%" alt="...">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption d-none d-md-block text-center d-flex justify-content-center">
+        <!-- Text și butonul dorite -->
+        <h1>Travel around the world.</h1>
+        <a href="#">
+          <button class="btn-custom spaced-top-2">SEE LAST POSTS</button></br></br></br></br></br></br></br></br></br>
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/hero_5.png' %}" class="d-block w-100" height="85%" alt="...">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption d-none d-md-block text-center d-flex justify-content-center">
+        <!-- Text și butonul dorite -->
+        <h1>Travel around the world.</h1>
+        <a href="#">
+          <button class="btn-custom spaced-top-2">SEE LAST POSTS</button></br></br></br></br></br></br></br></br></br>
+        </a>
+      </div>
+    </div>
+    <!-- Adăugați câte elemente carousel-item doriți pentru mai multe imagini -->
+  </div>
+  <a class="carousel-control-prev" href="#carousel-hero-id" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-hero-id" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+{% endblock %}
